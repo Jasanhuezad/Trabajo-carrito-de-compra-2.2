@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /* Añadir padding para asegurar espacio alrededor del contenido */
+    box-sizing: border-box; /* Incluir padding y border en el ancho y alto del contenedor */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px; /* Limitar el ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5; /* Aumentar la altura de línea para mejorar la legibilidad */
+    word-wrap: break-word; /* Permitir el ajuste de palabras largas */
+}

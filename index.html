@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Vista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="paginas/inicio.html" onclick="showView('inicio')">Inicio</a></li>
+            <li><a href="paginas/contacto.html" onclick="showView('contacto')">Contacto</a></li>
+            <li><a href="paginas/quienes-somos.html" onclick="showView('quienes-somos')">Quiénes Somos</a></li>
+            <li><a href="paginas/Carrito-de-compras.html" onclick="showView('carrito')">Carrito de Compras</a></li>
+            <li><a href="#" onclick="showView('portafolio')">Portafolio</a></li>
+        </ul>
+    </nav>
+
+    <div id="inicio" class="view">
+        <h1>Inicio</h1>
+        <p>Bienvenido a nuestra Tienda de relojes.</p>
+
+    </div>
+
+    <div id="contacto" class="view" style="display:none;">
+        <h1>Contacto</h1>
+        <p>Puedes contactarnos en este formulario.</p>
+    </div>
+
+    <div id="quienes-somos" class="view" style="display:none;">
+        <h1>Quiénes Somos</h1>
+        <p>Somos una empresa dedicada a...</p>
+    </div>
+
+    <div id="carrito" class="view" style="display:none;">
+        <h1>Carrito de Compras</h1>
+        <p>Tu carrito está vacío.</p>
+    </div>
+
+    <div id="portafolio" class="view" style="display:none;">
+        <h1>Portafolio</h1>
+        <p>Este es nuestro portafolio de trabajos.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

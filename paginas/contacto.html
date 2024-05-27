@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="contacto-styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html" onclick="showView('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="showView('contacto')">Contacto</a></li>
+                <li><a href="quienes-somos.html" onclick="showView('quienes-somos')">Quiénes Somos</a></li>
+                <li><a href="Carrito-de-compras.html" onclick="showView('carrito')">Carrito de Compras</a></li>
+                <li><a href="#" onclick="showView('portafolio')">Portafolio</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="contacto-container">
+    <h1>¡Contáctame!</h1>
+    <p>¡Estoy aquí para ayudarte!</p>
+    <button id="mostrarNumero">Mostrar número de contacto</button>
+    <p id="numeroContacto" style="display:none;">Número de contacto: <span>+56986351253</span></p>
+  </div>
+  <script src="contacto-script.js"></script>
+</body>
+</html>
